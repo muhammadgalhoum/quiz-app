@@ -18,9 +18,9 @@ let qTime = 15; // the time in seconds
 let myData;
 async function getQuestions() {
   try {
-    if (location.pathname === '/test-ar.html') {
+    if (location.pathname === '/indexAr.html') {
       myData = await fetch("../questions-ar.json");
-    } else if(location.pathname === '/test-en.html') {
+    } else if(location.pathname === '/indexEn.html') {
       myData = await fetch("../questions.json");
     }
     let questions = await myData.json();
@@ -142,7 +142,7 @@ function showResult(count) {
     transform: translate(-50%, -50%); padding: 20px; font-size: 50px; color: #009688; background-color: #00968824;';
     document.body.appendChild(finalDiv);
 
-    if (location.pathname === '/test-ar.html') {
+    if (location.pathname === '/indexAr.html') {
       if (total > count / 2 && total <= count) {
         Swal.fire({
           icon: "success",
@@ -178,7 +178,7 @@ function showResult(count) {
           }
         });
       }
-    } else if (location.pathname === '/test-en.html') {
+    } else if (location.pathname === '/indexEn.html') {
       if (total > count / 2 && total <= count) {
         Swal.fire({
           icon: "success",
