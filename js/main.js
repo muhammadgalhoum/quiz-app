@@ -19,9 +19,9 @@ let myData;
 async function getQuestions() {
   try {
     if (location.pathname === "/muhammadgalhoum/quiz-app/blob/main/index-ar.html") {
-      myData = await fetch("../questions-ar.json");
+      myData = await fetch("/muhammadgalhoum/quiz-app/blob/main/questions-ar.json");
     } else if (location.pathname === "/muhammadgalhoum/quiz-app/blob/main/index-en.html") {
-      myData = await fetch("../questions.json");
+      myData = await fetch("/muhammadgalhoum/quiz-app/blob/main/questions.json");
     }
     let questions = await myData.json();
     
