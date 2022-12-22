@@ -157,7 +157,7 @@ function showResult(count) {
           if (result.isConfirmed) {
             location.reload(true);
           } else if (result.isDenied) {
-            window.location.pathname = "/";
+            window.location.pathname = "/quiz-app/";
           }
         });
       } else {
@@ -174,7 +174,7 @@ function showResult(count) {
           if (result.isConfirmed) {
             location.reload(true);
           } else if (result.isDenied) {
-            window.location.pathname = "/";
+            window.location.pathname = "/quiz-app/";
           }
         });
       }
@@ -193,7 +193,7 @@ function showResult(count) {
           if (result.isConfirmed) {
             location.reload(true);
           } else if (result.isDenied) {
-            window.location.pathname = "/";
+            window.location.pathname = "/quiz-app/";
           }
         });
       } else {
@@ -210,7 +210,7 @@ function showResult(count) {
           if (result.isConfirmed) {
             location.reload(true);
           } else if (result.isDenied) {
-            window.location.pathname = "/";
+            window.location.pathname = "/quiz-app/";
           }
         });
       }
