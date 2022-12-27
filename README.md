@@ -14,6 +14,6 @@ Quiz application in Arabic and English contains questions in programming and the
 
 * The Programming section contains questions in HTML, CSS, JavaScript and Python.
 
-* The religious questions section contains questions in the Islamic religion
+* The religious questions section contains questions in the Islamic religion.
 
 *If you have any comments please don't hesitate to contact me.*
